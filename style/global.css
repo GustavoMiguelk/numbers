@@ -37,9 +37,21 @@
     --sora: "Sora", sans-serif;
   }
 
+html, body {
+    height: 100%;
+    margin: 0;
+  }
 
 body{
-    background: url('../assets/Linha.png') bottom/cover;
-    background-color: #020202;
-    filter: drop-shadow(to bottom black);
-  }
+    background: #020202 url('../assets/Linha.png') center/cover no-repeat;
+}
+
+header img{
+    width: 172px;
+    height: 38px;  
+}
+
+main{
+    margin-block: 76px;
+    margin-inline: 120px;
+}
