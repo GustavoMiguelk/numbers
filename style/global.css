@@ -37,13 +37,9 @@
     --sora: "Sora", sans-serif;
   }
 
-html, body {
-    height: 100%;
-    margin: 0;
-  }
-
 body{
     background: #020202 url('../assets/Linha.png') center/cover no-repeat;
+    color: var(--content-primary);
 }
 
 header img{
@@ -52,6 +48,19 @@ header img{
 }
 
 main{
-    margin-block: 76px;
-    margin-inline: 120px;
+    margin: auto;
+    margin-block: 4.75rem;
+    margin-inline: 7.5rem;
+
+    max-width: 1280px;
+}
+
+article{
+    display: flex;
+    gap: 6.75rem;
+    padding-block: 4.75rem;
+
+    & section{
+        width: 50%;
+    }
 }

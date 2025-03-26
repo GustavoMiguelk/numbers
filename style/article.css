@@ -1,0 +1,50 @@
+.tutorial{
+    font-family: var(--mono);
+
+    & .title-wrap{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+
+        padding-block-end: 2.375rem;
+    }
+
+    & span{
+        text-transform: uppercase;
+        font-weight: bold;
+        color: var(--content-secondary);
+    }
+
+    & h1{
+        text-transform: uppercase;
+
+        font-family: var(--sora);
+        font-size: 5vw;
+    }
+
+    & .how-use{
+        font-family: var(--flex);
+        display: grid;
+        gap: 2.25rem;
+
+        width: 75%;
+    }
+
+    & h2{
+        font-size: 1rem;
+        font-weight: 500;
+        color: var(--content-brand);
+        margin-inline-start: 20px;
+    }
+
+    & p{
+        font-size: 0.90rem;
+        color: var(--content-secondary);
+        margin-inline-start: 20px;
+    }
+
+    & .tips{
+        display: flex;
+        align-items: start;
+    }
+}
