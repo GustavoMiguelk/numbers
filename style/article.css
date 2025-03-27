@@ -151,6 +151,10 @@
     }
 
     & .result{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
         & span{
             margin-inline: 1rem;
             font-size: 3.5rem;

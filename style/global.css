@@ -64,3 +64,11 @@ article{
         height: fit-content;
     }
 }
+
+.remove{
+    display: none !important;
+}
+
+.appear{
+    display: grid !important;
+}
