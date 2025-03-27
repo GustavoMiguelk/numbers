@@ -49,23 +49,45 @@
                     <p>defina o intervalo e a quantidade de números, clique em "Sortear" e veja os resultados na tela. É rápido e fácil!</p>
                 </div>
 
+                <form action="">
                 <fieldset>
-                    <div class="input-wrap">
-                        <label for="number">NÚMERO</label>
-                        <input type="number" name="number" id="number">
+                        <div class="input-wrap">
+                            <label for="number">NÚMERO</label>
+                            <input type="number" name="number" id="number">
+                        </div>
+                        <div class="input-wrap">
+                            <label for="min">DE</label>
+                            <input type="number" name="min" id="min">
+                        </div>
+                        <div class="input-wrap">
+                            <label for="max">DE</label>
+                            <input type="number" name="max" id="max">
+                        </div>
+                    </fieldset>
+
+                    <div class="checkbox">
+                        <input type="checkbox" name="check" id="check">
+                        <label for="check">Não repetir número</label>
                     </div>
 
-                    <div class="input-wrap">
-                        <label for="min">DE</label>
-                        <input type="number" name="min" id="min">
-                    </div>
+                    <button>SORTEAR <img src="./assets/arrow.svg" alt="Arrow"></button>
+                </form>
 
-                    <div class="input-wrap">
-                        <label for="max">DE</label>
-                        <input type="number" name="max" id="max">
-                    </div>
 
-                </fieldset>
+            </section>
+
+            <section class="sort-result">
+                <div class="result-text">
+                    <h2>Resultado do Sorteio</h2>
+                    <span>1 Resultado</span>
+                </div>
+
+                <div class="result">
+                    <span>23</span>
+                    <span>12</span>
+                </div>
+
+                <button>Sortear novamente <img src="./assets/replay.svg" alt="" srcset=""></button>
             </section>
 
         </article>

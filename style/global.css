@@ -38,7 +38,7 @@
   }
 
 body{
-    background: #020202 url('../assets/Linha.png') center/cover no-repeat;
+    background: #020202 url('../assets/Linha.png') top/cover no-repeat;
     color: var(--content-primary);
 }
 
@@ -50,7 +50,6 @@ header img{
 main{
     margin: auto;
     margin-block: 4.75rem;
-    margin-inline: 7.5rem;
 
     max-width: 1280px;
 }
@@ -62,5 +61,6 @@ article{
 
     & section{
         width: 50%;
+        height: fit-content;
     }
 }
